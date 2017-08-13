@@ -1,4 +1,5 @@
-A simple Ionic 3 app for fetching and displaying subreddits.
+## A simple Ionic 3 app for fetching and displaying subreddits.
+
 <img width="405" alt="main" src="https://user-images.githubusercontent.com/644354/29254090-9cee3ab6-8042-11e7-93e0-7542161e7402.png">
 
 ## How to use this app
