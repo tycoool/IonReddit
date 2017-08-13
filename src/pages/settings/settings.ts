@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
-import { RedditService } from '../../app/services/reddit.service';
-
 import { RedditsPage } from '../reddits/reddits';
 
 @Component({
@@ -14,8 +12,7 @@ export class SettingsPage {
   category: any;
   limit: any;
 
-  constructor(public navCtrl: NavController,
-    private redditService: RedditService) {
+  constructor(public navCtrl: NavController) {
     this.getDefaults();
   }
 
